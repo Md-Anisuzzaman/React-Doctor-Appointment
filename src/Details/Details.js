@@ -26,7 +26,6 @@ const Details = () => {
 
     return (
         <div className="mt-5 pt-5">
-            <h2 className="mb-5">Details Baba Apni kothai?</h2>
             <img className="img-size" src={serviceDetails.img} alt="" />
             <p className="p-size">{serviceDetails.details}</p>
         </div>
