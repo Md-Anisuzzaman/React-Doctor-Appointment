@@ -1,0 +1,18 @@
+.services-border{
+    border: 2px solid cyan;
+}
+
+.cart{
+    background-color: #0E2653;
+    height: 380px;
+    border: 1px solid cyan;
+    color: white;
+}
+
+.img-wrap{
+     height: 210px;
+     width: 90%;
+     /* overflow-y: hidden; */
+     object-fit: contain;
+
+}

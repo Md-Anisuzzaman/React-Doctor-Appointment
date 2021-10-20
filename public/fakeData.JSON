@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Laila Banu",
+        "place": "Chamber/Online",
+        "type": "Cardilogy",
+        "details": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "img": "https://www.humanitas.net/content/uploads/2017/10/doctor-smiling-e1479990735873.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Yousuf Zaman",
+        "place": "Chamber/Online",
+        "type": "Medicine",
+        "details": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr.Ajith karmakar",
+        "place": "Chamber",
+        "type": "Sergery",
+        "details": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "img": "https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555923840/shape/mentalfloss/164609725.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Anjuman Mahbub",
+        "place": "Chamber/Online",
+        "type": "Dermatologist",
+        "details": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "img": "https://previews.123rf.com/images/lenetssergey/lenetssergey1505/lenetssergey150500246/39718746-woman-doctor-standing-with-folder-at-hospital.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Shofiqul Islam",
+        "place": "Chamber/Online",
+        "type": "Neuro Sergen",
+        "details": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "img": "https://ak.picdn.net/shutterstock/videos/17965258/thumb/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Didar Hossain",
+        "place": "Chamber",
+        "type": "Physical Medicine",
+        "details": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "img": "https://www.firstpointgroup.com.au/wp-content/uploads/2018/01/rsz_doctor.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Dr. Nur Uddin",
+        "place": "Chamber/Online",
+        "type": "Hematology",
+        "details": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "img": "https://images.fineartamerica.com/images-medium-large-5/mature-male-doctor-smiling-towards-camera-science-photo-library.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Dr.Nargis Fatema",
+        "place": "Chamber/Online",
+        "type": "Gynecologist",
+        "details": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
+        "img": "https://gomerblog.com/wp-content/uploads/2018/10/38591120_s.jpg"
+    }
+]
