@@ -4,8 +4,8 @@ const Contact = () => {
     return (
         <div>
 
-            <h1 className="mt-5">Contact Us</h1>
-            <p className="mt-5">
+            <h1 className="mt-2">Contact Us</h1>
+            <p className="mt-3">
                 Dhaka,Banani <br />
                 Email: HelloDoctor@gmail.com <br />
                 mobile: 00548925 , 006579211

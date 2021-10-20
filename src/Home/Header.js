@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import {Button, Navbar, Nav, Container } from 'react-bootstrap';
+import { Button, Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useFirebase from '../Hook/useFirebase';
@@ -9,7 +9,7 @@ import useFirebase from '../Hook/useFirebase';
 
 const Header = () => {
 
-    const {user,logOut} = useFirebase();
+    const { user, logOut } = useFirebase();
     return (
         <>
             <Navbar bg="primary" variant="dark" className="header-body" sticky="top" collapseOnSelect expand="lg" >
@@ -29,7 +29,7 @@ const Header = () => {
                             <Button onClick={logOut} className="fs-5">Logout</Button> :
                             <Nav.Link as={Link} to="/login"><Button className="fs-5">Login</Button></Nav.Link>}
                         <Navbar.Text>
-                           <span className="text-warning"> Signed in as:</span> <a href="#login">{user?.email}</a>
+                            <span className="text-warning"> Signed in as:</span> <a href="#login">{user?.email}</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>

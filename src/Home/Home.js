@@ -7,8 +7,6 @@ import Banner from './Banner';
 const Home = () => {
     return (
         <div>
-
-            {/* <h1 className="mt-5">This is home</h1> */}
             <Banner> </Banner>
             <Services></Services>
             <About></About>

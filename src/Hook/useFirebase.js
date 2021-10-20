@@ -18,17 +18,18 @@ const useFirebase = () => {
 
 
     const handleGooglesignin = () => {
-        signInWithPopup(auth, provider)
-            .then((result) => {
-                setUser(result.user);
-            });
+        return signInWithPopup(auth, provider);
+
+        //signInWithPopup(auth, provider)
+        // .then((result) => {
+        //     setUser(result.user);
+        // });
 
 
     }
 
     const toggleLogin = e => {
         setIsLogin(e.target.value);
-        setEmail('Fill the input value');
 
     }
 
@@ -37,7 +38,7 @@ const useFirebase = () => {
 
     }
     const handlePasswordlChange = e => {
-        setPassword(e.target.checked);
+        setPassword(e.target.value);
 
     }
 
@@ -75,7 +76,6 @@ const useFirebase = () => {
             .catch(() => setError(error.message));
         sessionStorage.removeItem("email");
     }
-
 
     return {
         user,

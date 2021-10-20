@@ -1,6 +1,7 @@
 import React, { createContext } from 'react';
 import useFirebase from '../Hook/useFirebase';
 
+//create-cintext-api
 
 export const AuthContext = createContext();
 

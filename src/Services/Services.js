@@ -28,9 +28,10 @@ const Services = () => {
                                     <h6>Name:  {service.name}</h6>
                                     <p>Type:  {service.type}</p>
                                     <p>Place:  {service.place}</p>
-                                    <Link to="/details"> <button className="btn btn-warning">Details</button></Link>
+                                    <Link to={`/details/${service.id}`}> <button className="btn btn-warning">Details</button></Link>
 
-                                   
+
+
                                     {/* <p className="p-4 text-justify"><span className="fw-bold">Details:</span> {service.details}</p> */}
                                 </div>
                             </div>
