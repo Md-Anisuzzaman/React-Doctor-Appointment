@@ -27,7 +27,7 @@ const Header = () => {
                         <Nav.Link style={{ color: 'white' }} as={HashLink} to="/contact#contact">Contact Us</Nav.Link>
                         {user?.email ?
                             <Button onClick={logOut} className="fs-5">Logout</Button> :
-                            <Nav.Link as={Link} to="/login"><Button className="fs-5">Login</Button></Nav.Link>}
+                            <Link as={Link} to="/login"><Button className="fs-5">Login</Button></Link>}
                         <Navbar.Text>
                             <span className="text-warning"> Signed in as:</span> <a href="#login">{user?.email}</a>
                         </Navbar.Text>

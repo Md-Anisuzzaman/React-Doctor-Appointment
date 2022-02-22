@@ -22,12 +22,15 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
-            <Route exact path="/home">
+            <Route exact path="/">
               <Home></Home>
             </Route>
             {/* <Route exact path="/banner">
            <Banner></Banner>
           </Route> */}
+            <Route exact path="/home">
+              <Home></Home>
+            </Route>
             <Route exact path="/services">
               <Services></Services>
             </Route>
@@ -44,7 +47,7 @@ function App() {
               <Services></Services>
             </Route>
             <Route exact path="/login">
-              <Login> </Login>
+              <Login></Login>
             </Route>
             <Route path="*">
               <NotFound></NotFound>

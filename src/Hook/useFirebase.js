@@ -66,7 +66,7 @@ const useFirebase = () => {
             }
         });
 
-    }, [user]);
+    }, []);
 
 
 
@@ -74,8 +74,10 @@ const useFirebase = () => {
         signOut(auth)
             .then(() => setUser({}))
             .catch(() => setError(error.message));
-        sessionStorage.removeItem("email");
+           
+        //sessionStorage.removeItem("email");
     }
+
 
     return {
         user,
